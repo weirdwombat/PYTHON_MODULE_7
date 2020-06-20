@@ -1,3 +1,10 @@
+"""
+Program :
+Author :
+Date Last Modified : 06/20/2020
+This program will accept three user inputs, and validate them to see if they are numeric.
+A list of the input will be printed once three valid input have been entered.
+"""
 def make_list():
     user_list = []
     if len(user_list) < 4:
