@@ -6,7 +6,7 @@ import sort_and_search_array
 class MyTestCase(unittest.TestCase):
     def test_sort_found(self):
         #need to be passing a list in
-        self.assertEqual(True, False)
+        self.assertEqual(list.index(0), [0],#list = [0, 3, 4, 0])
         #if i have [0, 3, 4, 0]
         #then my array.index[0] would give me [0]
 
